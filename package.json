@@ -1,0 +1,23 @@
+{
+  "name": "node-project",
+  "version": "0.0.1",
+  "description": "proyecto de node y react",
+  "license": "ISC",
+  "author": "Maick",
+  "type": "module",
+  "main": "src/app.js",
+  "scripts": {
+    "dev": "nodemon src/app.js",
+    "start": "node src/app.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.16.4",
+    "zod": "^4.0.7"
+  }
+}
